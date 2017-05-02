@@ -1,0 +1,27 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+test-output/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+# macOS files
+.DS_Store
+Thumbs.db
+
+# idea files 
+.idea
+*.ipr
+*.iml
+
+# maven target dir
+target
+mvnw
+mvnw.cmd
+
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<mapping>
+		<class-a>com.heavenhr.database.entity.OfferEntity</class-a>
+		<class-b>com.heavenhr.web.business.dto.OfferInDTO</class-b>
+
+		<field>
+			<a>title</a>
+			<b>title</b>
+		</field>
+
+		<field>
+			<a>startDate</a>
+			<b>startDate</b>
+		</field>
+	</mapping>
+
+	<mapping>
+		<class-a>com.heavenhr.database.entity.OfferEntity</class-a>
+		<class-b>com.heavenhr.web.business.dto.OfferOutDTO</class-b>
+
+		<field>
+			<a>id</a>
+			<b>id</b>
+		</field>
+
+		<field>
+			<a>title</a>
+			<b>title</b>
+		</field>
+
+		<field>
+			<a>startDate</a>
+			<b>startDate</b>
+		</field>
+	</mapping>
+
+</mappings>

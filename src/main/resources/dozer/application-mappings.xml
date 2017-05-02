@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<mapping>
+		<class-a>com.heavenhr.database.entity.ApplicationEntity</class-a>
+		<class-b>com.heavenhr.web.business.dto.ApplicationOutDTO</class-b>
+
+		<field>
+			<a>id</a>
+			<b>id</b>
+		</field>
+
+		<field>
+			<a>emailId</a>
+			<b>emailId</b>
+		</field>
+
+		<field>
+			<a>resumeText</a>
+			<b>resumeText</b>
+		</field>
+
+		<field>
+			<a>status</a>
+			<b>status.getStatus().ordinal()</b>
+		</field>
+	</mapping>
+
+	<mapping>
+		<class-a>com.heavenhr.database.entity.ApplicationEntity</class-a>
+		<class-b>com.heavenhr.web.business.dto.ApplicationOutDTO</class-b>
+
+		<field>
+			<a>id</a>
+			<b>id</b>
+		</field>
+
+		<field>
+			<a>emailId</a>
+			<b>emailId</b>
+		</field>
+
+		<field>
+			<a>resumeText</a>
+			<b>resumeText</b>
+		</field>
+
+		<field>
+			<a>status</a>
+			<b>status.getStatus().ordinal()</b>
+		</field>
+	</mapping>
+
+	<mapping>
+		<class-a>com.heavenhr.database.entity.ApplicationEntity</class-a>
+		<class-b>com.heavenhr.web.dto.ApplicationInDTO</class-b>
+
+		<field>
+			<a>emailId</a>
+			<b>emailId</b>
+		</field>
+
+		<field>
+			<a>resumeText</a>
+			<b>resumeText</b>
+		</field>
+
+	</mapping>
+</mappings>
